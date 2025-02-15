@@ -38,7 +38,7 @@ function App() {
                   alt="頭像"
                   className="img-fluid rounded-circle"
                 />
-                <h2 className="mb-0">`${person.name.first} ${person.name.last}`</h2>
+                <h2 className="mb-0">{person.name.first} {person.name.last}</h2>
                 <p className="mb-0">{person.email}</p>
               </div>
             </div>)
